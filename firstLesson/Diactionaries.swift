@@ -19,13 +19,23 @@ func Dictionaries() {
         "Max": 185,
         "Max2": 186
     ]
-    
-    peoples.
+
     
     let peoples1: [String: Any] = [
         "Max": 123,
-        "Max": "asd"
+        "qwe": "asd"
     ]
+    
+    for key in peoples.keys {
+        print(peoples[key])
+    }
+    
+    for (_, value) in peoples{
+        print(value)
+    }
+    
+    print(peoples)
+    
     
     
 }
