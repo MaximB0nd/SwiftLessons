@@ -7,4 +7,11 @@
 
 import Foundation
 
-longStrings()
+@main
+struct Application{
+    static func main() throws {
+        print("Hello, World!")
+    }
+}
+
+
