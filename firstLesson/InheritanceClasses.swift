@@ -33,8 +33,32 @@ class Shape {
     }
 }
 
+class Square: Shape{
+    
+    let side: Int
+    
+    init(name: String, color: String, x: Int, y: Int, side: Int) {
+        self.side = side
+        super.init(name: name, color: color, x: x, y: y)
+    }
+    
+    override func paintInfo() -> String {
+        let squareSquare = side * side
+        return """
+               Name: \(name)
+               Square: \(squareSquare)
+               Color: \(color)
+               Coords: 
+                x: \(x)
+                y: \(y)
+               """
+    }
+}
+
 func InheritanceClasses() {
     let shape: Shape = Shape(name: "Rectangle", color: "Green", x: 10, y: 12)
     print(shape.paintInfo())
+    let square = Square(name: "Square", color: "Red", x: 10, y: 12, side: 10)
+    print(square.paintInfo())
     
 }
