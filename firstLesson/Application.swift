@@ -10,7 +10,7 @@ import Foundation
 @main
 struct Application{
     static func main() throws {
-        initDesInitClasses()
+        goFunction()
     }
 }
 

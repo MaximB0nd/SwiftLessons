@@ -53,9 +53,6 @@ func initDesInitClasses() {
     let b = Squarer(a: 10, b: 20)
     let c = Squarer(side: 10)
     
-    
-    
-    
 }
 
 
