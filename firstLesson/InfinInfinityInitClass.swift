@@ -9,11 +9,11 @@ import Foundation
 
 class oneClass {
     let one: Int
-    let two: Int
+
     
     init(one: Int, two: Int) {
         self.one = one
-        self.one = two
+//        self.one = two
     }
     
     convenience init() {
