@@ -30,8 +30,6 @@ enum days{
 }
 
 
-
-
 func testEnums() {
     var money: MoneyType = .dollar
     print(type(of:money))
