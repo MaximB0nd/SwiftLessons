@@ -20,10 +20,14 @@ func devide(_ n1: Int, _ n2: Int) throws -> Int{
 
 func testGetErrors(){
     do {
-        let result: Int = try devide(10, 1)
+        var _ = try devide(0, 123)
     } catch Errors.divideByZero {
         print("Devision by zero")
-    } catch {
-        print("Nothing")
     }
+    catch (let error){
+        print(error)
+    }
+    
+    var _ = try? devide(12, 0)
 }
+
