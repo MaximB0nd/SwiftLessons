@@ -10,8 +10,20 @@ import Foundation
 @main
 struct Application{
     static func main() throws {
-        testLambdaFuncs()
+        //testLambdaFuncs()
+      
     }
 }
+
+
+class qwe {
+    let value: String
+
+    init(value: String) {
+        self.value = value
+    }
+}
+
+
 
 
