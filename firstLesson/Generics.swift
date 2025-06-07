@@ -25,3 +25,9 @@ func testGeteric<T>() -> [T]{
 func sum<T: Numeric>(_ a: T, _ b: T) -> T {
     return a + b
 }
+
+class Objects<T> {
+    typealias ObjectType = T
+    
+    let arr = [ObjectType]()
+}

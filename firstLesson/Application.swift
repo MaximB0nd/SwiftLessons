@@ -10,20 +10,9 @@ import Foundation
 @main
 struct Application{
     static func main() throws {
-        //testLambdaFuncs()
-      
+        testKeyPath()
     }
 }
-
-
-class qwe {
-    let value: String
-
-    init(value: String) {
-        self.value = value
-    }
-}
-
 
 
 
