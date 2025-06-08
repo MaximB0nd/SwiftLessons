@@ -10,12 +10,7 @@ import Foundation
 @main
 struct Application{
     static func main() throws {
-        do {
-            try throwSomeError()
-        }
-        catch {
-            print(error)
-        }
+        testAutoRelesePool()
     }
 }
 
