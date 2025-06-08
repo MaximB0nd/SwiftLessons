@@ -10,7 +10,12 @@ import Foundation
 @main
 struct Application{
     static func main() throws {
-        tryMeetting()
+        do {
+            try throwSomeError()
+        }
+        catch {
+            print(error)
+        }
     }
 }
 
